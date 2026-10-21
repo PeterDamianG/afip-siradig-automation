@@ -1,0 +1,34 @@
+[
+  {
+    "query": "Mirá los logs de la última corrida y decime qué pasó",
+    "should_trigger": true
+  },
+  {
+    "query": "¿Qué errores hubo ayer con la carga de facturas?",
+    "should_trigger": true
+  },
+  {
+    "query": "Revisá el registro de la sesión anterior",
+    "should_trigger": true
+  },
+  {
+    "query": "¿Cuántos comprobantes se cargaron y cuántos se omitieron hoy?",
+    "should_trigger": true
+  },
+  {
+    "query": "Mostrame el historial de pasos del pipeline",
+    "should_trigger": true
+  },
+  {
+    "query": "Escribí un poema sobre el mar",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Cómo se hace una torta de chocolate?",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Qué es la fotosíntesis?",
+    "should_trigger": false
+  }
+]

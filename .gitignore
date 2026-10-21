@@ -1,0 +1,27 @@
+# Entorno
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Credenciales
+credenciales.env
+.env
+*.env
+
+# Datos personales y documentos
+FACTURAS/*
+!FACTURAS/.gitkeep
+ALQUILER/*
+!ALQUILER/.gitkeep
+PRESENTACIONES/*
+!PRESENTACIONES/.gitkeep
+output/
+.playwright-mcp/
+
+# Archivos generados
+*.pdf
+*.log
+*.jsonl
+*.sqlite
+*.sqlite3

@@ -1,0 +1,34 @@
+[
+  {
+    "query": "Enviá el formulario al empleador",
+    "expected_skill": "pagosafip-revision-final"
+  },
+  {
+    "query": "Llená el formulario de AFIP con estas facturas",
+    "expected_skill": "pagosafip-siradig-http"
+  },
+  {
+    "query": "Extraé los datos de estos PDFs",
+    "expected_skill": "pagosafip-pdf-intake"
+  },
+  {
+    "query": "Conciliá lo que ya está cargado en AFIP",
+    "expected_skill": "pagosafip-validator"
+  },
+  {
+    "query": "Revisá los logs de la última corrida",
+    "expected_skill": "pagosafip-observabilidad"
+  },
+  {
+    "query": "Cargá los alquileres de la carpeta ALQUILER",
+    "expected_skill": "pagosafip-alquiler"
+  },
+  {
+    "query": "Enviá la rectificativa con equipamiento y alquiler",
+    "expected_skill": "pagosafip-revision-final"
+  },
+  {
+    "query": "Estamos en diciembre, actualizá los alquileres de AFIP",
+    "expected_skill": "pagosafip-alquiler"
+  }
+]

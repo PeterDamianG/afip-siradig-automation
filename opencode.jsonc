@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "pagosafip-orquestador",
+  "mcp": {
+    "servers": {
+      "playwright": {
+        "type": "local",
+        "command": ["bunx", "@playwright/mcp@latest"]
+      }
+    }
+  }
+}

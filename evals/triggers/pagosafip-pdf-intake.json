@@ -1,0 +1,34 @@
+[
+  {
+    "query": "Tengo 60 facturas nuevas en FACTURAS, revisalas y decime cuáles se pueden cargar",
+    "should_trigger": true
+  },
+  {
+    "query": "Extraé CUIT, fecha, número y total de los PDFs",
+    "should_trigger": true
+  },
+  {
+    "query": "¿Qué facturas quedaron en revisar y por qué?",
+    "should_trigger": true
+  },
+  {
+    "query": "Detectá duplicados entre las facturas de la carpeta",
+    "should_trigger": true
+  },
+  {
+    "query": "Agregá un proveedor nuevo al extractor de PDFs",
+    "should_trigger": true
+  },
+  {
+    "query": "Escribí un poema sobre el mar",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Cómo se hace una torta de chocolate?",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Qué es la fotosíntesis?",
+    "should_trigger": false
+  }
+]

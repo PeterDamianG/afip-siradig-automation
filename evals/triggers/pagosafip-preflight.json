@@ -1,0 +1,34 @@
+[
+  {
+    "query": "¿Está todo listo para empezar a cargar facturas en AFIP hoy?",
+    "should_trigger": true
+  },
+  {
+    "query": "Chequeá que tengamos el entorno, las credenciales y Playwright antes de arrancar",
+    "should_trigger": true
+  },
+  {
+    "query": "Corré el preflight de PagosAFIP",
+    "should_trigger": true
+  },
+  {
+    "query": "Antes de cargar, verificá que no falte ninguna dependencia",
+    "should_trigger": true
+  },
+  {
+    "query": "¿Tenemos todo instalado para procesar las facturas?",
+    "should_trigger": true
+  },
+  {
+    "query": "Escribí un poema sobre el mar",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Cómo se hace una torta de chocolate?",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Qué es la fotosíntesis?",
+    "should_trigger": false
+  }
+]

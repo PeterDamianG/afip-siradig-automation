@@ -1,0 +1,34 @@
+[
+  {
+    "query": "Abrí el navegador y mostrame la pantalla de AFIP",
+    "should_trigger": true
+  },
+  {
+    "query": "El HTTP falló, probá con el navegador visible",
+    "should_trigger": true
+  },
+  {
+    "query": "Revisá en pantalla el listado de formularios enviados",
+    "should_trigger": true
+  },
+  {
+    "query": "Necesito ver la Vista Previa en el navegador antes de decidir",
+    "should_trigger": true
+  },
+  {
+    "query": "Usá Playwright para mirar el formulario de SiRADIG",
+    "should_trigger": true
+  },
+  {
+    "query": "Escribí un poema sobre el mar",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Cómo se hace una torta de chocolate?",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Qué es la fotosíntesis?",
+    "should_trigger": false
+  }
+]

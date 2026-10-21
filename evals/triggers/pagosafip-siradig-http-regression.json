@@ -1,0 +1,18 @@
+[
+  {
+    "query": "Llená el formulario de AFIP con estas facturas",
+    "should_trigger": true
+  },
+  {
+    "query": "Agregá un comprobante a un gasto de mayo que ya existe",
+    "should_trigger": true
+  },
+  {
+    "query": "Escribí un poema sobre el mar",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Qué es la fotosíntesis?",
+    "should_trigger": false
+  }
+]

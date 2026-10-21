@@ -1,0 +1,34 @@
+[
+  {
+    "query": "Cargá estas facturas en SiRADIG por HTTP",
+    "should_trigger": true
+  },
+  {
+    "query": "Agregá un comprobante a un gasto de mayo que ya existe",
+    "should_trigger": true
+  },
+  {
+    "query": "Quitá del borrador un comprobante de marzo",
+    "should_trigger": true
+  },
+  {
+    "query": "Medí si el formulario está bloqueado por el tope de carga directa",
+    "should_trigger": true
+  },
+  {
+    "query": "¿Cómo se hace el POST para guardar un gasto de equipamiento?",
+    "should_trigger": true
+  },
+  {
+    "query": "Escribí un poema sobre el mar",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Cómo se hace una torta de chocolate?",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Qué es la fotosíntesis?",
+    "should_trigger": false
+  }
+]

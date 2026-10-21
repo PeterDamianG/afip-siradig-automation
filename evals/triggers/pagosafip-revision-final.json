@@ -1,0 +1,34 @@
+[
+  {
+    "query": "Armá la revisión final antes de enviar el formulario",
+    "should_trigger": true
+  },
+  {
+    "query": "¿Podemos enviar el formulario? Mostrame totales y marcas",
+    "should_trigger": true
+  },
+  {
+    "query": "Generá el informe con los totales y lo que hay que confirmar",
+    "should_trigger": true
+  },
+  {
+    "query": "Prepará el envío de la rectificativa con el total aprobado",
+    "should_trigger": true
+  },
+  {
+    "query": "Quiero revisar todo antes del último clic",
+    "should_trigger": true
+  },
+  {
+    "query": "Escribí un poema sobre el mar",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Cómo se hace una torta de chocolate?",
+    "should_trigger": false
+  },
+  {
+    "query": "¿Qué es la fotosíntesis?",
+    "should_trigger": false
+  }
+]
