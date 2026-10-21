@@ -1,5 +1,7 @@
 # PagosAFIP
 
+[github.com/PeterDamianG/afip-siradig-automation](https://github.com/PeterDamianG/afip-siradig-automation)
+
 Automatización para cargar **facturas de servicios y equipamiento** y **alquileres de casa habitación**
 en **SiRADIG** (Impuesto a las Ganancias, 4.ª categoría), revisar los totales, enviar la
 rectificativa al empleador y guardar el PDF de la presentación.
@@ -80,8 +82,8 @@ flowchart LR
 ### Instalación
 
 ```sh
-git clone https://github.com/TU_USUARIO/pagosafip-automation.git
-cd pagosafip-automation
+git clone https://github.com/PeterDamianG/afip-siradig-automation.git
+cd afip-siradig-automation
 
 python3.12 -m venv .venv
 source .venv/bin/activate
