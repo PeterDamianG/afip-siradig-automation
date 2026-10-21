@@ -339,8 +339,19 @@ FORZAR_ENVIO=1 ./.venv/bin/python scripts/siradig_enviar_ui.py 1.234.567,89
 - `evals/triggers/*.json`: casos de disparo por skill.
 - `evals/agents/*.json`: casos de comportamiento de agentes.
 
-La validación estructural de skills se puede hacer con el plugin
+La validación estructural de skills se puede hacer con el plugin opcional
 [`opencode-skill-creator`](https://github.com/antongulin/opencode-skill-creator).
+
+El plugin crea proyectos temporales para evaluar. Por defecto se deja **desactivado**:
+
+```sh
+./.venv/bin/python scripts/skill_creator_plugin.py status
+./.venv/bin/python scripts/skill_creator_plugin.py on     # sólo para evaluar
+./.venv/bin/python scripts/skill_creator_plugin.py off    # al terminar
+./.venv/bin/python scripts/limpiar_eval_sessions.py       # borra temporales y sesiones
+```
+
+Reiniciá OpenCode después de activar o desactivar. Corré las evaluaciones desde una sesión CLI/standalone, no desde el escritorio.
 
 ---
 
@@ -388,6 +399,8 @@ def mi_proveedor(t):
 │   ├── pdf_extraer.py          Extracción de facturas
 │   ├── proveedores.py          Registro de proveedores (plantillas)
 │   ├── pipeline.py             Punto de entrada
+│   ├── limpiar_eval_sessions.py Limpieza del evaluador
+│   ├── skill_creator_plugin.py  Activa/desactiva el plugin
 │   ├── siradig_*.py            Contrato HTTP de SiRADIG
 │   └── revision_final.py       Informe combinado
 ├── FACTURAS/                   Datos locales (ignorado)
@@ -431,6 +444,7 @@ Más detalle en [`SECURITY.md`](SECURITY.md).
 | La Vista Previa dice que supera el tope | No enviar. Medir con `tope_medir.py`; ofrecer carga no automática o quitar comprobantes con aprobación. |
 | “Deducción de Alquiler de Inmuebles inválida o inexistente” | El registro ya fue enviado; no reintentar. Verificar con `alquiler_verificar.py` y el PDF histórico. |
 | El envío dice “sin cambios” | Ya se envió ese total; si no hay meses/comprobantes nuevos, no corresponde otra rectificativa. |
+| “Location not found” / `opencode-skill-eval-*` | Restos del evaluador de skills. Cerrar y reabrir OpenCode; opcional: `scripts/limpiar_eval_sessions.py`. |
 
 ---
 

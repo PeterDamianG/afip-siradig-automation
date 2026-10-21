@@ -37,7 +37,7 @@ git grep -n -E "TU_CUIT|TU_CLAVE|password|token|cookie" --cached
 
 ## Terceros
 
-El proyecto puede usar el plugin `opencode-skill-creator` para validar y evaluar skills.
+El proyecto puede usar el plugin **opcional** `opencode-skill-creator` para validar y evaluar skills. Por defecto queda desactivado; se activa sólo para evaluar y se limpia con `scripts/limpiar_eval_sessions.py`.
 Es código de terceros con acceso a procesos y a las variables de entorno del usuario.
 Recomendaciones:
 
